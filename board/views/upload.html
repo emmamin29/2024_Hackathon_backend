@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Post Submission Form</title>
+  </head>
+  <body>
+    <form action="http://localhost:8080/insert" method="post">
+      <input type="text" name="author_id" placeholder="Author ID" required />
+      <input type="text" name="title" placeholder="Title" required />
+      <input type="text" name="content" placeholder="Content" required />
+      <input
+        type="text"
+        name="category_id"
+        placeholder="Category ID"
+        required
+      />
+      <button type="submit">Submit</button>
+    </form>
+  </body>
+</html>
